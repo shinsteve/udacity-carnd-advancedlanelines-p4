@@ -50,7 +50,8 @@ def calib_cam(image_paths, num_checker_pts):
             objpoints.append(objp)
             imgpoints.append(corners)
 
-    ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, img.shape[::-1][1:], None, None)
+    img_size = (img.shape[1], img.shape[0])
+    ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, img_size, None, None)
     return mtx, dist
 
 
