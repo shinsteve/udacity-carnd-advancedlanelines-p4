@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/undistortion_example.png "Original and Undistorted"
-[image2]: ./examples/undistortion_ex.png "Original and Undistorted"
+[image2]: ./examples/undistort_ex.png "Original and Undistorted"
 [image3]: ./examples/warp_ex.png "Undistorted and Warp"
 [image4]: ./examples/binarize_ex.png "Undistorted and Binarized"
 [image5]: ./examples/binary_warped_ex.png "Binarized and Binary Warped"
