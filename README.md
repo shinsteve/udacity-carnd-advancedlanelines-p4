@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
-![Lane Line](./examples/find_lane_ex.png)
+![Lane Line](./output_images/test4.jpg)
 
 
 Contents
